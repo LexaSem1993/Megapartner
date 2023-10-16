@@ -221,7 +221,7 @@
 .main::before {
   position: absolute;
   top: -120px;
-  content: url(../../../images/dot-ligth-one.png);
+  content: url(./../images/dot-ligth-one.png);
   background-position: center;
   background-repeat: no-repeat;
   z-index: -1;
@@ -230,7 +230,7 @@
   position: absolute;
   right: 0;
   bottom: -120px;
-  content: url(../../../images/dot-ligth-two.png);
+  content: url(./../images/dot-ligth-two.png);
   background-position: center;
   background-repeat: no-repeat;
   z-index: -1;
