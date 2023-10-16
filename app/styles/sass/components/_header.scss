@@ -84,9 +84,10 @@
         position: absolute;
         left:15px;
         top:16px;
-        content: url(../../../images/planet.png);
+        content: url(./../images/planet.png);
         background-repeat: no-repeat;
         background-position: center;
+        z-index: 10;
     }
 }
 @media (max-width:1516px) {

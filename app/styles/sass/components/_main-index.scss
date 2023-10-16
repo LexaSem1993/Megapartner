@@ -110,6 +110,9 @@
     background-color: #1e1231;
     border-radius: 196px;
   }
+  &__open-img{
+    overflow: hidden;
+  }
   &__comment-item:hover{
     background-color: #478bf9;
   }
@@ -241,6 +244,12 @@
       flex-direction: column;
       flex-wrap: nowrap;
       height: 1600px;
+    }
+    &__hidden-img{
+      display: none;
+    }
+    &__open-img{
+      display: block;
     }
     &__title{
       text-align: center;
